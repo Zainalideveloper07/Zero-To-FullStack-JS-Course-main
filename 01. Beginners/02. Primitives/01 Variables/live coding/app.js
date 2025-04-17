@@ -5,3 +5,6 @@ let name = "HuXn WebDev";
 console.log(name);
 const channelName = "WebDev Academy";
 console.log(channelName);
+
+
+var

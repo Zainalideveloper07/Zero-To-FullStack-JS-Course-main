@@ -21,3 +21,9 @@ console.table({ name: "HuXn", age: 20, location: ["USA"] });
  * bla
  * bla
  */
+console.table("this is warning");
+console.clear();
+console.table({name:"Zain",age:20,location:["Pakistan"]})
+
+
+
