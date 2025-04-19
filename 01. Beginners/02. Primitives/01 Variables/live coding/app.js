@@ -7,4 +7,3 @@ const channelName = "WebDev Academy";
 console.log(channelName);
 
 
-var
