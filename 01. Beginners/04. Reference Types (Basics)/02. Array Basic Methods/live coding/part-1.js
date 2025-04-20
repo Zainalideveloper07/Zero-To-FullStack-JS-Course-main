@@ -12,10 +12,23 @@ const fruits = [
   "pineapple",
   "grapefruit",
 ];
+let moreFruits = ["strawberries", "pineapple", "grapefruit"]
 
-console.log(fruits.length());
-fruits.push("Banana");
-console.log(fruits.length());
+// console.log(fruits.length());
+// fruits.push("Banana");
+// console.log(fruits.length());
+// fruits.pop("Banana");
+// console.log(fruits.length());
+// fruits.shift();
+// console.log(fruits);
+// fruits.unshift("orange");
+// console.log(fruits);
+console.log(fruits.concat(moreFruits));
+
+
+
+
+
 
 // console.log(fruits);
 // fruits.push("banana");
