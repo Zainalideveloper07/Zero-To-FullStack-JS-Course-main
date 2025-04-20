@@ -43,3 +43,6 @@ console.log(firstName.includes("X"));
 
 //8. TRIM
 // console.log(fullName.trim());
+
+let desc=`this is some random
+Text`;
