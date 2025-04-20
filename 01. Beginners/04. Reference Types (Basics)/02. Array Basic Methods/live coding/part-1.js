@@ -13,15 +13,19 @@ const fruits = [
   "grapefruit",
 ];
 
-console.log(fruits);
-fruits.push("banana");
-fruits.pop();
-fruits.shift();
-fruits.unshift("orange");
+console.log(fruits.length());
+fruits.push("Banana");
+console.log(fruits.length());
 
-// CONCAT
-// const fruits = ["apples", "pomegranate", "mango"];
-// let moreFruits = ["strawberries", "pineapple", "grapefruit"];
-// let totalFruits = fruits.concat(moreFruits);
+// console.log(fruits);
+// fruits.push("banana");
+// fruits.pop();
+// fruits.shift();
+// fruits.unshift("orange");
 
-console.log(fruits);
+// // CONCAT
+// // const fruits = ["apples", "pomegranate", "mango"];
+// // let moreFruits = ["strawberries", "pineapple", "grapefruit"];
+// // let totalFruits = fruits.concat(moreFruits);
+
+// console.log(fruits);
