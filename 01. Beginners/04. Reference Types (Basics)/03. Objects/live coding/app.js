@@ -19,7 +19,7 @@ const person ={
   age:24,
   location:["planet","Earth"],
   isProgrammer: true,
-  
+
 };
 
 // Accessing Properties
@@ -34,4 +34,7 @@ console.log((person.firstName = "Sam"));
 
 // Add new properties
 console.log((person.isProgrammer = false));
+console.log(person);
+
+delete person.location;
 console.log(person);
