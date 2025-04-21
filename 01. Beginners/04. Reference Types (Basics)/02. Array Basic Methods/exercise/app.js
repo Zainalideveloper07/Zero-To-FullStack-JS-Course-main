@@ -10,36 +10,50 @@
 
 // concat()
 const arr1 = ["Cecile", "Lone"];
+
 const arr2 = ["Emil", "Tobias", "Linus"];
-const children = arr1.concat(arr2);
+
+// console.log(arr1.concat(arr2));
+// const children = arr1.concat(arr2);
 
 // includes()
 let text = "Hello world, welcome to the universe.";
-let result = text.includes("world");
+// console.log(text.includes("world"));
+
+// let result = text.includes("world");
 
 // push()
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.push("Kiwi");
+// fruits.push("Kiwi");
 
 // unshift()
-const array1 = [1, 2, 3];
-console.log(array1.unshift(4, 5));
-console.log(array1);
+// const array1 = [1, 2, 3];
+// console.log(array1.unshift(4,5));
+// console.log(array1);
+// console.log(array1.sort());
+
+
+// console.log(array1.unshift(4, 5));
+// console.log(array1);
 
 // pop()
-fruits.pop();
+// fruits.pop();
 
 // shift
 const array2 = [1, 2, 3];
-const firstElement = array2.shift();
+console.log(array2.shift());
 console.log(array2);
-console.log(firstElement);
 
-// sort()
-fruits.sort();
 
-// slice()
-const citrus = fruits.slice(1, 3);
+// const firstElement = array2.shift();
+// console.log(array2);
+// console.log(firstElement);
+
+// // sort()
+// fruits.sort();
+
+// // slice()
+// const citrus = fruits.slice(1, 3);
 
 // splice()
 const months = ["Jan", "March", "April", "June"];
@@ -48,7 +62,7 @@ months.splice(1, 0, "Feb");
 console.log(months);
 // expected output: Array ["Jan", "Feb", "March", "April", "June"]
 
-months.splice(4, 1, "May");
-// replaces 1 element at index 4
-console.log(months);
-// expected output: Array ["Jan", "Feb", "March", "April", "May"]
+// months.splice(4, 1, "May");
+// // replaces 1 element at index 4
+// console.log(months);
+// // expected output: Array ["Jan", "Feb", "March", "April", "May"]
