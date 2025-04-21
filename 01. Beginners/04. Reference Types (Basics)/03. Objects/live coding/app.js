@@ -6,12 +6,20 @@
 
 // ------------------------
 // Creating Object
-let person = {
-  firstName: "HuXn",
-  lastName: "WebDev",
-  age: 18,
-  location: ["Planet", "Earth"],
+// let person = {
+//   firstName: "HuXn",
+//   lastName: "WebDev",
+//   age: 18,
+//   location: ["Planet", "Earth"],
+//   isProgrammer: true,
+// };
+const person ={
+  firstName:"Zain",
+  lastName:"Ali",
+  age:24,
+  location:["planet","Earth"],
   isProgrammer: true,
+  
 };
 
 // Accessing Properties
