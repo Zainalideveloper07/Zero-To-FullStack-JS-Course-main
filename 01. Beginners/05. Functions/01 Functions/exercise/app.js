@@ -5,10 +5,15 @@
 // 5. log the value.
 
 // ---------------------------
-function myFunction(p1, p2) {
-  return p1 * p2; // The function returns the product of p1 and p2
-}
+// function myFunction(p1, p2) {
+//   return p1 * p2; // The function returns the product of p1 and p2
+// }
 
-let x = myFunction(4, 3);
-console.log(x);
-// ---------------------------
+// let x = myFunction(4, 3);
+// console.log(x);
+// // ---------------------------
+function myFunction(num1,num2){
+  return num1 * num2;
+};
+let myFunctionRuslet=myFunction(3,2)
+console.log(myFunctionRuslet);

@@ -15,10 +15,14 @@ function greet() {
 greet(); // calling function
 
 // -------------------------------
-function sayHello(username) {
-  console.log(`Hello ${username}`);
-}
+// function sayHello(username) {
+//   console.log(`Hello ${username}`);
+// }
+function sayHello(username){
+  console.log(`hello ${username}`);
+  
 
+};
 sayHello("HuXn"); // calling function
 // -------------------------------
 // The return statement can be used to return the value to a function call.
