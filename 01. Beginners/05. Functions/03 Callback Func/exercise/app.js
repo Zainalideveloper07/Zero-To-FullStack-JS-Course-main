@@ -4,11 +4,22 @@
 // 4. pass that value to the callback function
 // 5. Now create callback function & print that value which you pass as parameter to the callback func.
 
-function showCallFunc(fn) {
-  const value = 10;
+function showCallFun(fn) {
+  const value =10;
   fn(value);
-}
+};
 
-showCallFunc(function (value) {
+function fn(){
   console.log(value);
-});
+}
+ 
+showCallFun(fn());
+
+// function showCallFunc(fn) {
+//   const value = 10;
+//   fn(value);
+// }
+
+// showCallFunc(function (value) {
+//   console.log(value);
+// });
