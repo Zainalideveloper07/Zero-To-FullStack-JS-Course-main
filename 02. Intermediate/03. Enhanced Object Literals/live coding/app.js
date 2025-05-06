@@ -29,3 +29,9 @@ console.log(zain);
 console.log(typeof (zain));
 console.log(typeof (obj));
 
+const libr = {
+  sum: (a, b) => a + b,
+  mult: (a, b) => a * b,
+}
+
+console.log(libr.mult(5, 7));
