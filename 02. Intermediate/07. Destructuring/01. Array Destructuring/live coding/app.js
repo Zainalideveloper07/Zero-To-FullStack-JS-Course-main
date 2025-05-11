@@ -80,11 +80,17 @@
 }
 
 
-const user = ["zain", 24, "gujranwala"];
+// const user = ["zain", 24];
 
-const [Name, age, City] = user;
+// const [Name, age, City = "Gujranwala"] = user;
 
+// console.table({ Name: Name, Age: age, City: City });
+
+function user() {
+  return ["Zain", 24, "gujranwala"];
+}
+
+const [Name, Age, City] = user()
 console.log(Name);
-console.log(age);
+console.log(Age);
 console.log(City);
-console.table({ Name: Name, Age: age, City: City });
