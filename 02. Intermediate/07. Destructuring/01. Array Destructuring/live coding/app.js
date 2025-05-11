@@ -87,3 +87,4 @@ const [Name, age, City] = user;
 console.log(Name);
 console.log(age);
 console.log(City);
+console.table({ Name: Name, Age: age, City: City });
