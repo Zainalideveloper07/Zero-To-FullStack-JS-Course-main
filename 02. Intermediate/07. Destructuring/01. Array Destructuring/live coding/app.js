@@ -4,76 +4,86 @@
 
 // --------------------------------
 // Basic variable assignment
-const foo = ["one", "two", "three"];
+// const foo = ["one", "two", "three"];
 
-const [red, yellow, green] = foo;
-console.log(red); // "one"
-console.log(yellow); // "two"
-console.log(green); // "three"
+// const [red, yellow, green] = foo;
+// console.log(red); // "one"
+// console.log(yellow); // "two"
+// console.log(green); // "three"
 // --------------------------------
 
-// --------------------------------
-const foo = ["one", "two"];
+{// --------------------------------
+  // const foo = ["one", "two"];
 
-const [red, yellow, green, blue] = foo;
-console.log(red); // "one"
-console.log(yellow); // "two"
-console.log(green); // undefined
-console.log(blue); //undefined
-// --------------------------------
+  // const [red, yellow, green, blue] = foo;
+  // console.log(red); // "one"
+  // console.log(yellow); // "two"
+  // console.log(green); // undefined
+  // console.log(blue); //undefined
+  // --------------------------------
 
-// --------------------------------
-// DEFAULT VALUES
-let a, b;
+  // --------------------------------
+  // DEFAULT VALUES
+  // let a, b;
 
-[a = 5, b = 7] = [1];
-console.log(a); // 1
-console.log(b); // 7
+  // [a = 5, b = 7] = [1];
+  // console.log(a); // 1
+  // console.log(b); // 7
 
-// --------------------------------
-// Swapping variables
-let a = 1;
-let b = 3;
+  // --------------------------------
+  // Swapping variables
+  // let a = 1;
+  // let b = 3;
 
-[a, b] = [b, a];
-console.log(a); // 3
-console.log(b); // 1
+  // [a, b] = [b, a];
+  // console.log(a); // 3
+  // console.log(b); // 1
 
-const arr = [1, 2, 3];
-[arr[2], arr[1]] = [arr[1], arr[2]];
-console.log(arr); // [1,3,2]
-// --------------------------------
+  // const arr = [1, 2, 3];
+  // [arr[2], arr[1]] = [arr[1], arr[2]];
+  // console.log(arr); // [1,3,2]
+  // --------------------------------
 
-// --------------------------------
-// Parsing an array returned from a function
-function f() {
-  return [1, 2];
+  // --------------------------------
+  // Parsing an array returned from a function
+  // function f() {
+  //   return [1, 2];
+  // }
+
+  // let a, b;
+  // [a, b] = f();
+  // console.log(a); // 1
+  // console.log(b); // 2
+  // // --------------------------------
+
+  // --------------------------------
+  // Ignoring some returned values
+  // function f() {
+  //   return [1, 2, 3];
+  // }
+
+  // const [a, , b] = f();
+  // console.log(a); // 1ls
+
+  // console.log(b); // 3
+
+  // const [c] = f();
+  // console.log(c); // 1
+  // // --------------------------------
+
+  // // --------------------------------
+  // // Assigning the rest of an array to a variable
+  // const [a, ...b] = [1, 2, 3];
+  // console.log(a); // 1
+  // console.log(b); // [2, 3]
+  // // --------------------------------
 }
 
-let a, b;
-[a, b] = f();
-console.log(a); // 1
-console.log(b); // 2
-// --------------------------------
 
-// --------------------------------
-// Ignoring some returned values
-function f() {
-  return [1, 2, 3];
-}
+const user = ["zain", 24, "gujranwala"];
 
-const [a, , b] = f();
-console.log(a); // 1ls
+const [Name, age, City] = user;
 
-console.log(b); // 3
-
-const [c] = f();
-console.log(c); // 1
-// --------------------------------
-
-// --------------------------------
-// Assigning the rest of an array to a variable
-const [a, ...b] = [1, 2, 3];
-console.log(a); // 1
-console.log(b); // [2, 3]
-// --------------------------------
+console.log(Name);
+console.log(age);
+console.log(City);
