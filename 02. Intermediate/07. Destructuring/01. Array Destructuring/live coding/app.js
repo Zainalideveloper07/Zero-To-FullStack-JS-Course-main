@@ -63,7 +63,8 @@ function f() {
 }
 
 const [a, , b] = f();
-console.log(a); // 1
+console.log(a); // 1ls
+
 console.log(b); // 3
 
 const [c] = f();
